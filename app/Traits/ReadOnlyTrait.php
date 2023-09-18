@@ -5,6 +5,8 @@ namespace App\Traits;
 use App\Exceptions\ReadOnlyException;
 use Illuminate\Database\Eloquent\Builder;
 
+//if you put use ReadOnlyTrait; in a class definition it will prevent the model from being used to modify or create records in the associated database table.
+
 trait ReadOnlyTrait
 {
     /**

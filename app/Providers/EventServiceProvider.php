@@ -11,6 +11,7 @@ class EventServiceProvider extends ServiceProvider
 {
     /**
      * The event listener mappings for the application.
+     * when a user is registered in the application it automatically sends a verification email
      *
      * @var array
      */

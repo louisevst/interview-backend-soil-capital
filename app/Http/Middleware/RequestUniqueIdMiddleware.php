@@ -6,6 +6,8 @@ use Closure;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 
+//generates a unique identifier for each incoming http req, that can be useful for tracking and debugging requests 
+
 class RequestUniqueIdMiddleware
 {
     public function handle(Request $request, Closure $next)

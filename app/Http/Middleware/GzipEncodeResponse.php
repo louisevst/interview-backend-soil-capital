@@ -6,6 +6,8 @@ use Closure;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Config;
 
+//Can help have faster server res
+
 class GzipEncodeResponse
 {
     public function handle(Request $request, Closure $next): mixed
